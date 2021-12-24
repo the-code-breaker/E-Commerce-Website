@@ -1,0 +1,5 @@
+@import url('../mobile/style.css');
+#footer-id{
+    position: relative;
+    bottom: -2000px;
+}

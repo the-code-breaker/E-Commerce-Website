@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway-Better Buys</title>
+    <link rel="icon" href="../Home Page/logo/PngItem_1783030.png">
+    <link rel="stylesheet" href="./style.css">
+    <script src="../Home Page/js/main.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">            
+
+</head>
+<body onload="myfunc()">
+
+ <!-- pre loader -->
+
+ <div id="preloader" >
+    <div class="box-loader" id="item1-loader">
+
+    </div>
+    <div class="box-loader" id="item2-loader">
+
+    </div>
+    <div class="box-loader" id="item3-loader">
+
+    </div>
+    <div class="box-loader" id="item4-loader">
+
+    </div>
+    
+    <div class="box-loader" id="item5-loader">
+
+    </div>
+</div>
+
+
+
+<!-- pre loader end -->
+
+   <div class="main-container">
+    <div class="container">
+        <h3>Payment</h3>
+
+        <form class="boxed">
+            
+
+           
+            <input type="radio" id="cc" name="card" checked>
+            <label for="cc">  <i class="fa fa-credit-card icon"></i> Credit Card</label>
+          
+           
+            <input type="radio" id="dc" name="card">
+            <label for="dc"> <i class="fa fa-credit-card icon"></i> Debit Card </label>
+
+
+            <div class="card-number">
+                <input type="tel" placeholder="Card Number" maxlength="19" id="card-number">
+
+                <input type="password" placeholder="CVC" maxlength="3" id="cvc">
+                <span class="fa fa-lock"></span>
+
+            </div>
+
+            <div class="input-group">
+                <h4>Exp.</h4>
+                <input type="number" placeholder="DD" maxlength="2" class="date">
+                <input type="number" placeholder="MM" maxlength="2" class="date">
+                <input type="number" placeholder="YYYY" maxlength="4" class="date">
+            </div>
+       
+
+<div class="other">
+    <h4>Other Payment Methods</h4>
+ <img src="./gpay.png" alt="" id="gpay">
+ <img src="./1220356_paytm_icon.png" alt="">
+ <img src="./1156727_finance_payment_paypal_icon.png" alt="">
+
+
+
+</div>
+
+<div class="button">
+    <button type="submit" id="button">PAY NOW</button>
+</div>
+            
+         
+            
+          </form>
+          
+   
+    
+    </div>
+   </div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.deal-products{
+    border-top: 5px solid green;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 690px;
+    z-index: -1;
+   
+   
+}
+
+.mobile-container table{
+    border-spacing: 40px;
+}
+.mobile-container table tr td h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+
+.mobile-container table tr td h1:hover{
+    color: green;
+}
+
+.deal-products table img{
+    
+    border-radius: 8px ;
+    
+}
+
+
+.deal-products table tr td img:hover{
+    transition: 0.5s;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.deal-products table tr td span{
+     position: relative;
+    
+}
+
+
+.deal-products table tr td p{
+    overflow: hidden;
+   
+    
+
+}
+
+.deal-products table tr td p:hover{
+    color: green;
+    cursor: pointer;
+
+}
+.deal-products table tr td a{
+    text-decoration: none;
+    color: black;
+
+
+}
+.deal-products table tr td a:hover{
+    color: green;
+    cursor: pointer;
+
+
+}
+.deal-products table tr td a:visited{
+         
+}
+
+.price{
+font-size: 20px;
+color: red;
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+

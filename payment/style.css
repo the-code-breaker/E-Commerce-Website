@@ -1,0 +1,146 @@
+@import url('../mobile/preloader.css');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    padding: 35px;
+    width: 450px;
+    height: 500px;
+    box-shadow: 2px 2px 2px 4px rgb(194, 180, 100);
+}
+
+h3{
+    position: relative;
+    top: -20px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+h4{
+    color: rgb(126, 116, 62);
+    position: relative;
+    top: -40px;
+    left: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.container label{
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    border: solid 2px #ccc;
+    transition: 0.5s;
+    text-align: center;
+    outline: 0;
+}
+.container label:hover{
+    cursor: pointer;
+}
+
+
+.container input[type="radio"]{
+   display: none;
+
+}
+
+input{
+    padding: 10px;
+    margin: 10px 0px;
+    outline: 0;
+}
+input:focus{
+    border: 2px solid gold;
+}
+
+.container input[type="radio"]:checked + label{
+           transition: 0.5s;
+            background-color: gold;
+            border: 1px solid red;
+           
+}
+
+#card-number{
+    width: 425px;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;
+
+}
+
+#cvc{
+    width: 50px;
+}
+
+.date{
+    position: relative;
+    top: -78px;
+    left: 160px;
+    width: 70px;
+}
+
+.other{
+    position: relative;
+    top: 10px;
+    left: 0px;
+   
+}
+.other h4{
+    position: relative;
+    left: 130px;
+    color: green;
+    text-decoration: underline;
+   
+}
+
+.other img{
+    width: 100px;
+    padding:20px;
+    display: inline-block;
+    position: relative;
+    top: -30px;
+    left: 20px;
+}
+.other img:hover{
+    transition: 0.5s;
+    transform: scale(110%);
+    cursor: pointer;
+}
+
+#gpay{
+    position: relative;
+    top: -55px;
+}
+
+#button{
+    width: 450px;
+    height: 50px;
+    color: white;
+    background-color: gold;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#button:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: rgb(202, 178, 38);
+}

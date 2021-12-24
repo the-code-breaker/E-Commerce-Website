@@ -1,0 +1,47 @@
+@import url('../Home Page/css/style.css');
+@import url('../Home Page/footer css/style.css');
+@import url('../Home Page/css/preloader.css');
+body{
+    background-color: rgb(70, 45, 94);
+}
+
+#footer-id {
+    position: relative;
+    bottom: -200px;
+}
+
+.about-us {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}
+
+.about-details {
+    box-shadow: -10px 10px 10px 5px grey;
+    border-radius: 10px;
+    width: 700px;
+    height: 600px;
+    z-index: -1;
+    padding: 20px;
+    background-color: aquamarine;
+    color: rgb(60, 59, 124);
+    
+    
+}
+.about-details h1{
+    text-align: center;
+    font-size: 30px;
+    
+    
+}
+.about-details p{
+    padding: 30px;
+    text-align: left;
+    font-size: 30px;
+    
+    
+}

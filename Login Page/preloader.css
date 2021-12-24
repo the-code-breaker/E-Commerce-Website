@@ -1,0 +1,249 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#preloader{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.box-loader{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 100px;
+    margin: 0px 10px;
+}
+
+#item1-loader{
+    box-shadow: -5px 5px 7px red;
+    background-color: blueviolet;
+    position: relative;
+    animation-name: first;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes first{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+
+    20%{
+        top: 0px;
+        left: 70px;
+        background-color: brown;
+    }
+
+    30%{
+        top: 0px;
+        left: 140px;
+        background-color: chartreuse;
+    }
+
+    40%{
+        top: 0px;
+        left: 210px;
+        background-color: violet;
+    }
+
+    50%{
+        top: 0px;
+        left: 140px;
+        background-color: springgreen;
+    }
+
+    60%{
+        top: 0px;
+        left: 70px;
+        background-color: blueviolet;
+    }
+
+    70%{
+        top: 0px;
+        left: -70px;
+        background-color: coral;
+    }
+
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+
+
+}
+#item2-loader{
+    box-shadow: -5px 5px 7px rgb(218, 194, 194);
+    background-color: chartreuse;
+    position: relative;
+    animation-name: second;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes second{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+
+    20%{
+        top: 0px;
+        left: -70px;
+        background-color: beige;
+    }
+
+    30%{
+        top: 0px;
+        left: -140px;
+        background-color: black;
+    }
+
+    70%{
+        top: 0px;
+        left: -70px;
+        background-color: burlywood;
+    }
+
+    100%{
+        top: 0px;
+        left: 0px;
+        background-color: chocolate;
+    }
+}
+
+
+#item3-loader{
+    box-shadow: -5px 5px 7px rgb(110, 90, 199);
+    background-color: rgb(56, 5, 56);
+    position: relative;
+    animation-name: third;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes third{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+
+    20%{
+        top: 0px;
+        left: -70px;
+        background-color: chocolate;
+    }
+
+    30%{
+        top: 0px;
+        left: -140px;
+        background-color: blueviolet;
+    }
+
+    70%{
+        top: 0px;
+        left: -70px;
+        background-color: black;
+    }
+
+    100%{
+        top: 0px;
+        left: 0px;
+        background-color: yellow;
+    }
+
+   
+}
+
+
+#item4-loader{
+    box-shadow: -5px 5px 7px rgb(64, 52, 172);
+    background-color: rgb(216, 189, 194);
+    position: relative;
+    animation-name: forth;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes forth{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+
+    20%{
+        top: 0px;
+        left: -70px;
+        background-color: blanchedalmond;
+    }
+    30%{
+        top: 0px;
+        left: -140px;
+        background-color: black;
+    }
+
+    70%{
+        top: 0px;
+        left: -70px;
+        background-color: burlywood;
+    }
+
+    100%{
+        top: 0px;
+        left: 0px;
+        background-color: cornsilk;
+    }
+}
+
+
+#item5-loader{
+    box-shadow: -5px 5px 7px rgb(48, 235, 79);
+    background-color: crimson;
+    position: relative;
+    animation-name: fifth;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes fifth{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+
+    20%{
+        top: 0px;
+        left: -70px;
+        background-color: black;
+    }
+    30%{
+        top: 0px;
+        left: -140px;
+        background-color: burlywood;
+    }
+    70%{
+        top: 0px;
+        left: -70px;
+        background-color: coral;
+    }
+
+    100%{
+        top: 0px;
+        left: 0px;
+        background-color: chartreuse;
+    }
+    
+}

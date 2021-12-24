@@ -1,0 +1,123 @@
+body{
+    background-color: ;
+}
+
+.mobile-table {
+    border-top: 5px solid green;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 190px;
+    border-spacing: 100px 40px;
+    background-color: white;
+    color: black;
+    
+    
+}
+
+#phones {
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    border-bottom: 2px solid red;
+    width: 100%;
+    background-color: white;
+}
+
+
+
+.mobile-table tr td img {
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 20px;
+    
+
+}
+
+.mobile-table tr td img:hover {
+    transition: 0.8s;
+    transform: translateY(-10px);
+    cursor: pointer;
+
+}
+
+.mobile-table tr td p {
+    text-align: left;
+    font-size: 25px;
+    color: black;
+  
+
+}
+
+.mobile-table tr td p:hover {
+    color: indianred;
+    cursor: pointer;
+
+}
+
+.price {
+    color: indianred;
+    font-weight: bold;
+}
+.price:hover {
+    color: rgb(200, 248, 69);
+    font-weight: bold;
+}
+
+
+.checked {
+    color: green;
+}
+
+
+.buy-now {
+
+    position: relative;
+    right: 90px;
+    top: -0px;
+    width: 200px;
+    height: 40px;
+    color: aliceblue;
+    background-color: orange;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+
+
+}
+
+.buy-now:hover {
+    transition: 0.5s;
+    color: rgb(214, 225, 236);
+    background-color: rgb(51, 59, 51);
+}
+
+
+.addtocart {
+    position: relative;
+    right: 90px;
+    top: 20px;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    background-color: greenyellow;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: black;
+}
+
+.addtocart:hover {
+    transition: 0.5s;
+    color: aliceblue;
+    background-color: rgb(77, 95, 77);
+}
+
