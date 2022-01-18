@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login-Better Buys</title>
-    <link rel="stylesheet" href="./login.css">
-    <link rel="icon" href="../Home Page/logo/PngItem_1783030.png">
-    <link rel="stylesheet" href="./preloader.css">
-    <script src="../Home Page/js/main.js"></script>
-</head>
-<body onload="myfunc()">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script
+   src="https://kit.fontawesome.com/64d58efce2.js"
+   crossorigin="anonymous"
+  ></script>
+  <link rel="icon" href="../Home Page/logo/PngItem_1783030.png">
+
+  <link rel="stylesheet" href="./login.css" />
+  <link rel="stylesheet" href="./preloader.css">
+  <title>Sign in & Sign up Form</title>`
+  
+ </head>
+
+ <body onload="myfunc()" onclick="myfunc3() , myfunc2() , myfunc4()">
 
 
     <!-- pre loader -->
 
-<div id="preloader" >
+    <div id="preloader">
         <div class="box-loader" id="item1-loader">
 
         </div>
@@ -28,44 +33,107 @@
         <div class="box-loader" id="item4-loader">
 
         </div>
-        
+
         <div class="box-loader" id="item5-loader">
 
         </div>
-</div>
-
-
-
-   <!-- pre loader end -->
-
-
-   
-    <div class="container">
-        <div class="box" id="item-1">
-          <h2 id="head">Login into Better Buys</h2>
-          <p id="create">or <a href="../Create Account Page/new.html">Create Account</a></p>
-
-        <div class="list">
-            <ul>
-                <form action="">
-                    <li><input type="text" placeholder="Email Address or Mobile"></li>
-                <li><input type="password" placeholder="Password"></li>
-                <li><input type="submit" value="Login"   id="login-button" ></li>
-                </form>
-            </ul>
-        </div>
-
-          <p id="login-other">or continue with</p>
-
-        </div>
-        
-        <div class="image">
-            <img src="./google-logo-9808.png" alt="" id="google">
-            <img src="./f-letter-logo-png-1571.png" alt="" id="facebook">
-            <img src="./logo-twitter-png-5860.png" alt="" id="twitter">
-        </div>
-   <a href=""><p id="forgot">Forgot Login?</p></a>
-        
     </div>
+
+
+
+    <!-- pre loader end -->
+  <div class="container">
+   <div class="forms-container">
+    <div class="signin-signup">
+     <form action="#" class="sign-in-form">
+      <h2 class="title">Sign in</h2>
+      <div class="input-field">
+       <i class="fas fa-user"></i>
+       <input type="text" placeholder="Username" />
+      </div>
+      <div class="input-field">
+       <i class="fas fa-lock"></i>
+       <input type="password" placeholder="Password" />
+      </div>
+      <input class="btn solid" type="submit" value="Login" />
+      <p class="social-text">Or Sign in with social platforms</p>
+      <div class="social-media">
+       <a href="#" class="social-icon">
+        <i class="fab fa-facebook-f"></i>
+       </a>
+       <a href="#" class="social-icon">
+        <i class="fab fa-twitter"></i>
+       </a>
+       <a href="#" class="social-icon">
+        <i class="fab fa-google"></i>
+       </a>
+       <a href="#" class="social-icon">
+        <i class="fab fa-linkedin-in"></i>
+       </a>
+      </div>
+     </form>
+     <form action="#" class="sign-up-form">
+      <h2 class="title">Sign up</h2>
+      <div class="input-field">
+       <i class="fas fa-user"></i>
+       <input type="text" placeholder="Username" />
+      </div>
+      <div class="input-field">
+       <i class="fas fa-envelope"></i>
+       <input type="email" placeholder="Email" />
+      </div>
+      <div class="input-field">
+       <i class="fas fa-lock"></i>
+       <input type="password" placeholder="Password" />
+      </div>
+      <input type="submit" class="btn" value="Sign up" />
+      <p class="social-text">Or Sign up with social platforms</p>
+      <div class="social-media">
+       <a href="#" class="social-icon">
+        <i class="fab fa-facebook-f"></i>
+       </a>
+       <a href="#" class="social-icon">
+        <i class="fab fa-twitter"></i>
+       </a>
+       <a href="#" class="social-icon">
+        <i class="fab fa-google"></i>
+       </a>
+       <a href="#" class="social-icon">
+        <i class="fab fa-linkedin-in"></i>
+       </a>
+      </div>
+     </form>
+    </div>
+   </div>
+
+   <div class="panels-container">
+    <div class="panel left-panel">
+     <div class="content">
+      <h3>New here ?</h3>
+      <p>
+
+      
+      </p>
+      <button class="btn transparent" id="sign-up-btn">Sign up</button>
+     </div>
+     <img src="pictures/log.svg" class="image" alt="" />
+    </div>
+    <div class="panel right-panel">
+     <div class="content">
+      <h3>One of us?</h3>
+      <p>
+        <a href="file:///D:/Agile%20Workshop/Reveal/index1.html">here</a>.
+      </p>
+      <button class="btn transparent" id="sign-in-btn">Sign in</button>
+     </div>
+     <img src="pictures/register.svg" class="image" alt="A picture here"/>
+    </div>
+   </div>
+  </div>
+  <script src="app.js"></script>
+ </body>
+</html>
+<script src="../Home Page/js/main.js"></script>
+    
 </body>
 </html>

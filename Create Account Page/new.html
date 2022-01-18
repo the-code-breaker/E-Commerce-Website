@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Account-Better Buys</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./new.css" />
     <link rel="icon" href="../Home Page/logo/PngItem_1783030.png">
-    <link rel="stylesheet" href="./new.css">
-    <link rel="stylesheet" href="./preloader.css">
-    <script src="../Home Page/js/main.js"></script>
+    <title>Create New Account - Better Buys</title>
 </head>
 
-
-<body onload="myfunc()">
+<body onload="myfunc()" onclick="myfunc3() , myfunc2() , myfunc4()">
 
 
     <!-- pre loader -->
 
-<div id="preloader" >
+    <div id="preloader">
         <div class="box-loader" id="item1-loader">
 
         </div>
@@ -30,48 +30,63 @@
         <div class="box-loader" id="item4-loader">
 
         </div>
-        
+
         <div class="box-loader" id="item5-loader">
 
         </div>
-</div>
-
-
-
-   <!-- pre loader end -->
-
-
-    <div class="container">
-        
-        
-        <div class="box">
-            <div class="input">
-                <form action="">
-                    <h2 id="head">Create a new Better Buys Account</h2>
-                    <p id="create">or <a href="../Login Page/login.html">Login</a></p>
-                <ul>
-                <li><input type="text" placeholder="Your Name" required ></li>
-                <li><input type="email" placeholder="Your Email" required></li>
-                <li><input type="number" placeholder="Mobile" required></li>
-                <li><input type="password" placeholder="Password" required></li>
-                <li><input type="password" placeholder="Re-Enter Password" required></li>
-                <input type="checkbox" name="" id=""> I agree all statements in <a href="">Terms of service</a>
-                <li><input type="submit" value="Create Account Now" id="login-button"></li>
-            </ul>
-               
-        </form>
-            </div>
-            
-        </div>
-
-        <div class="image">
-            <img src="../Login Page/google-logo-9808.png" alt="" id="google">
-            <img src="../Login Page/f-letter-logo-png-1571.png" alt="" id="facebook">
-            <img src="../Login Page/logo-twitter-png-5860.png" alt="" id="twitter">
-        </div>
-
     </div>
 
 
-</body>
+
+    <!-- pre loader end -->
+    <div class="card">
+        <div class="card-header">
+            <h2>Welcome</h2>
+            <h3>Create Your New Better Buys Account</h3>
+        </div>
+
+        <div class="card-body">
+            <form>
+                <div class="form-control">
+                    <label for="full_name">Full Name</label>
+                    <input type="text" id="full_name" placeholder="Full Name" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation"></i>
+                    <small></small>
+                </div>
+
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="example@domain.com" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation"></i>
+                    <small></small>
+                </div>
+
+                <div class="form-control">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Password" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation"></i>
+                    <small></small>
+                </div>
+
+                <div class="form-control">
+                    <label for="password2">Conform Password</label>
+                    <input type="password" id="password2" placeholder="Confirm" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation"></i>
+                    <small></small>
+                </div>
+
+                <button id="submit">
+                    <span>Create Account </span>
+                    <span class="loading"></span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./main.js" /> </script>
+    </body>
 </html>
