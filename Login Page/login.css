@@ -303,5 +303,8 @@ form.sign-up-form {
   top: 20px;
   
 }
+input{
+  background-color: transparent;
+}
 
 
