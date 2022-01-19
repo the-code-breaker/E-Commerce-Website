@@ -3,6 +3,7 @@ function validateform(){
   let email=document.myform.email.value;  
   let password=document.myform.password.value;  
   let password2=document.myform.password2.value;  
+  let run = true;
   
   if (name==null || name==""){  
     document.getElementById('name1').innerHTML = "Enter Name";
@@ -34,10 +35,20 @@ function validateform(){
 
 
 
-function createacc(){
-     let val = document.myform.create;
+
+  function Hide(){
+    let btn = document.getElementById('sub');
+    let para = document.getElementById('create');
+  if(create.style.display != 'block'){
+      create.style.display = 'block';
+  }
+
+  else{
+      create.style.display = 'none';
+  }
 
 }
+
    
    
 
