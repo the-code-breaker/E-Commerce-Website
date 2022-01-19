@@ -3,7 +3,6 @@ function validateform(){
   let email=document.myform.email.value;  
   let password=document.myform.password.value;  
   let password2=document.myform.password2.value;  
-  let isvalid = true;
   
   if (name==null || name==""){  
     document.getElementById('name1').innerHTML = "Enter Name";
@@ -33,6 +32,12 @@ function validateform(){
   
 }  
 
+
+
+function createacc(){
+     let val = document.myform.create;
+
+}
    
    
 

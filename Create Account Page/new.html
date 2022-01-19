@@ -46,10 +46,10 @@
         </div>
 
         <div class="card-body">
-            <form name="myform" onsubmit="return validation()">
+            <form name="myform" onsubmit="">
                 <div class="form-control">
                     <label for="full_name">Full Name</label>
-                    <input type="text" id="full_name" placeholder="Full Name" / name="name">
+                    <input type="text" id="full_name" placeholder="Full Name"  name="name">
                     <span id="name1"></span>
                     <i class="fas fa-check-circle"></i>
                     <i class="fas fa-exclamation"></i>
@@ -86,9 +86,11 @@
                     <small></small>
                 </div>
 
-                  <button id="submit" onclick="validateform()">
+                  <button id="submit"  type="button" onclick="validateform()" name="validate">
+                  <span> Please Validate First </span>
+
+                  <button id="create"  type="submit" name="create">
                   <span> Create Account </span>
-                   <span class="loading"></span>
         
                 
                 </button>
