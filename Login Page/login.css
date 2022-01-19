@@ -18,7 +18,7 @@ input {
 .container {
   position: relative;
   width: 100%;
-  background-color: #fff;
+  background-color: rgb(41, 36, 36);
   min-height: 100vh;
   overflow: hidden;
 }
@@ -28,13 +28,11 @@ input {
   position: absolute;
   height: 2000px;
   width: 2000px;
-  top: -10%;
-  right: 48%;
-  transform: translateY(-50%);
-  background-image: linear-gradient(-45deg, #20dbc2 0%, #00bfa6 100%);
+  right: 40%;
+  background-image: linear-gradient(-45deg, #616b6a 0%, #6fce31 100%);
   transition: 1.8s ease-in-out;
   border-radius: 50%;
-  z-index: 6;
+  z-index: 0;
 }
 
 .forms-container {
@@ -71,7 +69,7 @@ form.sign-up-form {
 
 .title {
   font-size: 2.2rem;
-  color: #444;
+  color: rgb(233, 217, 217);
   margin-bottom: 10px;
 }
 
@@ -80,9 +78,10 @@ form.sign-up-form {
   width: 100%;
 
   height: 55px;
-  background-color: #f0f0f0;
+  background-color: #131414;
   margin: 10px 0;
   border-radius: 55px;
+  border: 2px solid gold;
   display: grid;
   grid-template-columns: 15% 85%;
   padding: 0 0.4rem;
@@ -92,7 +91,7 @@ form.sign-up-form {
 .input-field i {
   text-align: center;
   line-height: 55px;
-  color: #acacac;
+  color: #fdf7f7;
   font-size: 1.1rem;
 }
 
@@ -103,8 +102,9 @@ form.sign-up-form {
   line-height: 1;
   font-weight: 600;
   font-size: 1.1rem;
-  color: #333;
+  color: rgb(241, 233, 233);
 }
+
 
 .input-field input::placeholder {
   color: #aaa;
@@ -118,8 +118,8 @@ form.sign-up-form {
   outline: none;
   border-radius: 48px;
   cursor: pointer;
-  background-color: #20dbc2;
-  color: #fff;
+  background-color: #dbf0ed;
+  color: rgb(82, 46, 46);
   text-transform: uppercase;
   font-weight: 600;
   margin: 10px 0;
@@ -127,10 +127,12 @@ form.sign-up-form {
 }
 
 .btn:hover {
-  background-color: #00bfa6;
+  color: white;
+  background-color: #334b47;
 }
 
 .social-text {
+  color: #d8faf5;
   padding: 0.7rem 0;
 }
 
@@ -142,21 +144,21 @@ form.sign-up-form {
 .social-icon {
   height: 46px;
   width: 46px;
-  border: 1px solid #333;
+  border: 1px solid rgb(45, 199, 31);
   margin: 0 0.45rem;
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  color: #333;
+  color: rgb(243, 240, 240);
   font-size: 1.3rem;
   border-radius: 50%;
   transition: all 0.5s;
 }
 
 .social-icon:hover {
-  color: #20dbc2;
-  border-color: #00bfa6;
+  color: #d8faf5;
+  border-color: #1f2525;
 }
 
 .signin-signup {
@@ -206,9 +208,12 @@ form.sign-up-form {
 }
 
 .panel h3 {
+  position: absolute;
+  top: 250px;
+  left: 250px;
   font-weight: 600;
   line-height: 1;
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 
 .panel p {
@@ -217,13 +222,16 @@ form.sign-up-form {
 }
 
 .btn.transparent {
+  position: absolute;
+  top:350px;
+  left: 240px;
   margin: 0;
   background: none;
-  border: 2px solid #fff;
-  width: 130px;
-  height: 41px;
+  border: 3px solid rgb(247, 245, 245);
+  width: 300px;
+  height: 80px;
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: 2rem;
 }
 
 .image {
@@ -271,6 +279,29 @@ form.sign-up-form {
 .container.sign-up-mode form.sign-up-form {
   z-index: 2;
   opacity: 1;
+}
+
+#demo2{
+  color: red;
+}
+
+#demo1{
+  color: cornflowerblue;
+}
+
+#show{
+  position: absolute;
+  left: 430px;
+  top: 15px;
+  width: 300px;
+  color: #d8faf5;
+}
+
+#pass{
+  position: absolute;
+  left: 400px;
+  top: 20px;
+  
 }
 
 

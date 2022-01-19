@@ -18,7 +18,7 @@
  <body onload="myfunc()" onclick="myfunc3() , myfunc2() , myfunc4()">
 
 
-    <!-- pre loader
+    <!-- pre loader -->
 
     <div id="preloader">
         <div class="box-loader" id="item1-loader">
@@ -37,7 +37,7 @@
         <div class="box-loader" id="item5-loader">
 
         </div>
-    </div> -->
+    </div>
 
 
 
@@ -45,20 +45,22 @@
   <div class="container">
    <div class="forms-container">
     <div class="signin-signup">
-     <form  class="sign-in-form" onsubmit="return(checkform())" >
+     <form  class="sign-in-form" id="myform" onsubmit="return(checkform())">
       <h2 class="title">Sign in</h2>
       <div class="input-field">
        <i class="fas fa-user"></i>
-       <input type="text" placeholder="Username" / id="name">
+       <input type="text" placeholder="Username" / name="name">
       </div>
+      <p id="demo"></p>
       <div class="input-field">
        <i class="fas fa-lock"></i>
-       <input type="password" placeholder="Password" / id="password">
+       <input type="password" placeholder="Password" / name="password" id="password">
+       <input type="checkbox" onclick="Toggle()" id="pass">
+       <b id="show">Show Password</b>
       </div>
-      <p id="alert"></p>
-       <button class="btn solid" type="submit" value=""  >
-     Login 
-       </button>
+      <p id="demo1"></p>
+      <p id="demo2"></p>
+       <button class="btn solid" type="submit" id="submit">Login </button>
   
       <p class="social-text">Or Sign in with social platforms</p>
       <div class="social-media">
