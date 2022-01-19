@@ -46,10 +46,11 @@
         </div>
 
         <div class="card-body">
-            <form >
+            <form name="myform" onsubmit="return validation()">
                 <div class="form-control">
                     <label for="full_name">Full Name</label>
-                    <input type="text" id="full_name" placeholder="Full Name" />
+                    <input type="text" id="full_name" placeholder="Full Name" / name="name">
+                    <span id="name1"></span>
                     <i class="fas fa-check-circle"></i>
                     <i class="fas fa-exclamation"></i>
                     <small></small>
@@ -57,7 +58,9 @@
 
                 <div class="form-control">
                     <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="example@domain.com" />
+                    <input type="email" id="email" placeholder="example@domain.com" name="email">
+                    <span id="email1"></span>
+
                     <i class="fas fa-check-circle"></i>
                     <i class="fas fa-exclamation"></i>
                     <small></small>
@@ -65,7 +68,9 @@
 
                 <div class="form-control">
                     <label for="password">Password</label>
-                    <input type="password" id="password" placeholder="Password" />
+                    <input type="password" id="password" placeholder="Password"  name="password">
+                    <span id="pass1"></span>
+
                     <i class="fas fa-check-circle"></i>
                     <i class="fas fa-exclamation"></i>
                     <small></small>
@@ -73,15 +78,18 @@
 
                 <div class="form-control">
                     <label for="password2">Conform Password</label>
-                    <input type="password" id="password2" placeholder="Confirm" />
+                    <input type="password" id="password2" placeholder="Confirm" name="password2">
+                    <span id="pass2"></span>
+
                     <i class="fas fa-check-circle"></i>
                     <i class="fas fa-exclamation"></i>
                     <small></small>
                 </div>
 
-                  <button id="submit">
+                  <button id="submit" onclick="validateform()">
                   <span> Create Account </span>
                    <span class="loading"></span>
+        
                 
                 </button>
             </form>
