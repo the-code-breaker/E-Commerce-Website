@@ -6,7 +6,7 @@ function togglemenu(){
 function myfunc(){
     setTimeout(function(){
         document.getElementById('preloader').style.display = 'none';
-    },1300);
+    },1000);
   
 }
 
@@ -40,4 +40,12 @@ function myfunc2(){
 
         }
 
+}
+
+
+
+
+setInterval(popup, 10000);
+function popup(){
+        document.getElementById('main-box1').style.display = 'none';
 }
