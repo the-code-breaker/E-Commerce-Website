@@ -45,7 +45,7 @@ function myfunc2(){
 
 
 
-setInterval(popup, 10000);
+setInterval(popup, 15000);
 function popup(){
         document.getElementById('main-box1').style.display = 'none';
 }
