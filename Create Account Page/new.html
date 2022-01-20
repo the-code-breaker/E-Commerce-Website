@@ -46,25 +46,40 @@
     <!-- pre loader end -->
     <div class="card">
         <div class="card-header">
-            <h2>Welcome</h2>
-            <h3>Create Your New Better Buys Account</h3>
+            <h1>Welcome here :)</h1>
+            <h2>Create Your New <span>Better Buys</span> Account</h2>
         </div>
 
         <div class="card-body">
-            <form name="myform" onsubmit="">
+            <form id="form" method="POST" target="_blank">
                 <div class="form-control">
-                    <label for="full_name">Full Name</label>
-                    <input type="text" id="full_name" placeholder="Full Name"  name="name">
-                    <span id="name1"></span>
+                    <label>Full Name</label>
+                    <input type="text" id="fullname" placeholder="Full Name"  name="fullname">
+                
+                    <div class="error" id="name1"></div>
+
+
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation"></i>
+                    <small></small>
+                </div>
+                <div class="form-control">
+                    <label>Username</label>
+                    <input type="text" id="user" placeholder="Username"  name="user">
+                
+                    <div class="error" id="user1"></div>
+
+
                     <i class="fas fa-check-circle"></i>
                     <i class="fas fa-exclamation"></i>
                     <small></small>
                 </div>
 
                 <div class="form-control">
-                    <label for="email">Email</label>
+                    <label>Email</label>
                     <input type="email" id="email" placeholder="example@domain.com" name="email">
-                    <span id="email1"></span>
+                    <div class="error" id="email1"></div>
+
 
                     <i class="fas fa-check-circle"></i>
                     <i class="fas fa-exclamation"></i>
@@ -72,9 +87,9 @@
                 </div>
 
                 <div class="form-control">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" placeholder="Password"  name="password">
-                    <span id="pass1"></span>
+                    <label>Password</label>
+                    <input type="password" id="password1" placeholder="Password"  name="password1">
+                    <div class="error" id="pass1"></div>
 
                     <i class="fas fa-check-circle"></i>
                     <i class="fas fa-exclamation"></i>
@@ -82,27 +97,23 @@
                 </div>
 
                 <div class="form-control">
-                    <label for="password2">Conform Password</label>
+                    <label>Conform Password</label>
                     <input type="password" id="password2" placeholder="Confirm" name="password2">
-                    <span id="pass2"></span>
+                    <div class="error" id="pass2"></div>
 
                     <i class="fas fa-check-circle"></i>
                     <i class="fas fa-exclamation"></i>
                     <small></small>
                 </div>
 
-                  <button id="sub" class="btn" type="button" onclick="Hide() , validateform()">
-                  <span> Please Vadlidate First </span>
-
-                <button type="button" class="para" id="create" style="display: none;">
-                   <a href="../account created/index.html" style="text-decoration: none;" > <span>Create Account</span></a>
+                <button type="submit" id="submit_button" value="Submit request">Create Account Now</button>
                 </button>
                 
-                </button>
             </form>
-
-              
+            
+            
         </div>
+        <h3>If you already have an account, click on the <a href="../Login Page/login.html">login</a></h3>
     </div>
 
     <script src="./main.js" /> </script>

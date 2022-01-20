@@ -17,22 +17,22 @@ body {
 .card {
   background-color: #aa8eeb;
   padding: 20px 30px;
-  width: 500px;
-  max-width: 500px;
+  width: 600px;
+  max-width: 600px;
   border-radius: 10px;
-  height: auto;
+  height: 800px;
   overflow: hidden;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .form-control {
-  padding: 15px 0;
+  padding: 10px 0;
   position: relative;
 }
 
 .form-control > label {
   display: inline-block;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 }
 
 .form-control > input {
@@ -42,6 +42,16 @@ body {
   border: 1px solid #bfc0c0;
   border: 0;
   outline: 0;
+}
+
+h3{
+  color: #4c6d46;
+  letter-spacing: 1px;
+  font-size: 23px;
+}
+
+h3 span{
+  color: #3a4436;
 }
 
 input:focus{
