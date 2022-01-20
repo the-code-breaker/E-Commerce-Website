@@ -49,3 +49,12 @@ setInterval(popup, 15000);
 function popup(){
         document.getElementById('main-box1').style.display = 'none';
 }
+
+let timeleft = 15;
+let downloadTimer = setInterval(function(){
+  if(timeleft <= 0){
+    clearInterval(downloadTimer);
+  }
+  document.getElementById("counter").innerHTML = timeleft - 1 + " sec";
+  timeleft -= 1;
+}, 1000);
