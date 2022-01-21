@@ -141,7 +141,7 @@ only screen and (max-width: 760px),
   #cart{
       position: absolute;
       top: 90px;
-      left: -180px;
+      left: -190px;
       width: 45px;
   }
 
@@ -187,7 +187,7 @@ only screen and (max-width: 760px),
  
    #search-bar{
        position: absolute;
-       width: 300px;
+       width: 290px;
        top: 97px;
        left: -490px;
        color: #ccc;
