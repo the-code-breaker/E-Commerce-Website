@@ -1,4 +1,113 @@
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+   .popup{
+       display: none;
+   }
+
+   #login-btn{
+       position: absolute;
+       width: 100px;
+       height: 30px;
+       left: -235px;
+   }
+   #item1 p{
+       position: absolute;
+       left: 70px;
+   }
+  .products-list{
+      width: 500px;
+      position: absolute;
+      top: 130px;
+      left: -370px;
+      background-color: transparent;
+  }
+  .products-list img{
+       margin-top: 10px;
+  }
+ 
+  .slider{
+      display: none;
+  }
+  .banner{
+      position: relative;
+      left: 30px;
+      top: 300px;
+      width: 300px;
+      height: 80px;
+  }
+ 
+
+  .deal-products{
+      position: relative;
+      top: 320px;
+  }
+
+  table tr td img{
+         width: 100px;
+  }
+
+  #banner2{
+      position: relative;
+      top: 0px;
+  }
+  #banner3{
+      position: relative;
+      top: 0px;
+  }
+  #banner4{
+      position: relative;
+      top: 0px;
+  }
+  #banner5{
+      position: relative;
+      top: 0px;
+  }
+  
+  #banner6{
+      position: relative;
+      top: 0px;
+  }
+  
+ 
+   #search-bar{
+       position: absolute;
+       width: 300px;
+       top: 100px;
+       left: -460px;
+       border: 1px solid black;
+   }
 
 
 
+   .footer{
+       display: none;
+   }
 
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 25%; 
+	}
+	
+
+
+}
