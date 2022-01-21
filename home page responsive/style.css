@@ -2,6 +2,10 @@
 only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
 
+    body{
+        background-color: black;
+    }
+
    .popup{
        display: none;
    }
@@ -10,20 +14,21 @@ only screen and (max-width: 760px),
        position: absolute;
        width: 100px;
        height: 30px;
+       background-color: black;
        left: -235px;
    }
    #item1 p{
        position: absolute;
        left: 70px;
-   }
-  .products-list{
-      width: 500px;
-      position: absolute;
-      top: 130px;
-      left: -370px;
-      background-color: transparent;
-  }
-  .products-list img{
+    }
+    .products-list{
+        width: 500px;
+        position: absolute;
+        top: 130px;
+        left: -370px;
+        background-color: transparent;
+    }
+    .products-list img{
        margin-top: 10px;
   }
  
@@ -37,15 +42,24 @@ only screen and (max-width: 760px),
       width: 300px;
       height: 80px;
   }
+  #cart{
+      position: absolute;
+      top: 90px;
+      left: -180px;
+      width: 45px;
+  }
+ 
  
 
   .deal-products{
       position: relative;
       top: 320px;
+      
   }
 
   table tr td img{
          width: 100px;
+        
   }
 
   #banner2{
@@ -74,8 +88,8 @@ only screen and (max-width: 760px),
    #search-bar{
        position: absolute;
        width: 300px;
-       top: 100px;
-       left: -460px;
+       top: 97px;
+       left: -490px;
        border: 1px solid black;
    }
 
@@ -86,9 +100,27 @@ only screen and (max-width: 760px),
    }
 
 
+   table{
+       background-color: rgb(220, 205, 233);
+       margin-top: 0px;
+       padding: 15px;
+   }
+ 
+   table tr h1{
+       margin-bottom: 10px;
+       width: 400px;
+       position: relative;
+       padding: 10px;
+       left: -125px;
+       text-align: center;
+   
+   }
+
+
 	/* Force table to not be like tables anymore */
 	table, thead, tbody, th, td, tr { 
 		display: block; 
+
 	}
 	
 	/* Hide table headers (but not display: none;, for accessibility) */
@@ -101,6 +133,7 @@ only screen and (max-width: 760px),
 	tr { border: 1px solid #ccc; }
 	
 	td { 
+        background-color: white;
 		/* Behave  like a "row" */
 		border: none;
 		border-bottom: 1px solid #eee; 
