@@ -166,11 +166,11 @@ body {
     width: 500px;
     height: 35px;
     border-radius: 4px;
-    font-family: cursive;
-    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
     text-align: center;
     border: 5px solid white;
-    color: green;
+    color: rgb(18, 247, 18);
     outline: 0%;
     border: 0;
 
@@ -267,7 +267,7 @@ body {
     position: absolute;
     left: 40px;
     top: 90px;
-    font-family: cursive;
+    font-family:Arial, Helvetica, sans-serif;
     background-color: black;
 
 }
@@ -278,7 +278,7 @@ body {
     position: absolute;
     left: 30px;
     top: 90px;
-    font-family: cursive;
+    font-family:Arial, Helvetica, sans-serif;
     background-color: black;
 
 }
@@ -289,7 +289,7 @@ body {
     position: absolute;
     left: 40px;
     top: 90px;
-    font-family: cursive;
+    font-family:Arial, Helvetica, sans-serif;
     background-color: black;
 
 }
@@ -300,7 +300,7 @@ body {
     position: absolute;
     left: 40px;
     top: 90px;
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: black;
 
 }
@@ -311,7 +311,7 @@ body {
     position: absolute;
     left: 25px;
     top: 90px;
-    font-family: cursive;
+    font-family:Arial, Helvetica, sans-serif;
     background-color: black;
 
 }
@@ -322,7 +322,7 @@ body {
     position: absolute;
     left: 40px;
     top: 90px;
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: black;
 
 }

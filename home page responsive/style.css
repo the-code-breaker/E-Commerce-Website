@@ -122,7 +122,9 @@ only screen and (max-width: 760px),
         left: -370px;
         background-color: transparent;
         z-index: -1;
+        
     }
+    
     .products-list img{
        margin-top: 10px;
   }
