@@ -48,6 +48,10 @@ only screen and (max-width: 760px),
       left: -180px;
       width: 45px;
   }
+
+  #search-logo{
+      display: none;
+  }
  
  
 
