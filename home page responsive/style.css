@@ -24,6 +24,10 @@ only screen and (max-width: 760px),
   z-index: -100;
     }
 
+    #banner1{
+        display: block;
+    }
+
     #preloader {
         height: 100%;
         width: 100%;
@@ -260,40 +264,6 @@ only screen and (max-width: 760px),
 
 }
 
-
-/* @media 
-only screen and (max-width: 377px),
-(min-device-width: 377px) and (max-device-width: 827px)  {
-#footer-id{
-    position: absolute;
-    bottom: -4105px;
-
-
-}
-
-#copyright{
-    width: 400px;
-    height: 180px;
-    position :relative;
-    font-size: 10px;
-    top: -10px;
-    left: -10px;
-    background-color: rgb(20, 18, 18);
-    
-   
-}
-#copyright h3{
-  color: #eee;
-  margin-bottom: 110px;
-    
-   
-}
-
-#footer-item6 img{
-    margin-bottom: 30px;
-}
-
-} */
 
 @media 
 only screen and (max-width: 560px),

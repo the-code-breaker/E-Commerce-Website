@@ -457,3 +457,7 @@ body {
 .popup a:hover{
     text-decoration: underline;
 }
+
+#banner1{
+    display: none;
+}
