@@ -334,26 +334,26 @@ position: relative;
 
 .forms-container{
   position: relative;
-  top: 250px;
+  top: 240px;
   left: -200px;
 }
 
 .panels-container{
     position: relative;
-    top: 380px;
+    top: 400px;
     left: 100px;
 }
 .panels-container h3{
     position: relative;
-    top: 20px;
+    top: 24px;
     font-size: 20px;
-    left: 50px;
+    left: 0px;
 }
 .panels-container h2{
     position: relative;
-    top: 20px;
+    top: 40px;
     font-size: 18px;
-    left: 80px;
+    left: 0px;
     color: #86cc37;
     width: 300px;
 }
@@ -362,19 +362,31 @@ position: relative;
   position: absolute;
   top:80px;
   width: 190px;
-  left: 100px;
+  left: 0px;
+  background-color: #221805;
   height: 40px;
   border: 2px solid red;
   
 }
 
+.btn.solid{
+  position: relative;
+  top: 20px;
+}
+
 .btn.transparent a{
 
-  color: #dbf0ed;
+  color: #f1f2f8;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 18px;
+}
+
+.show-pass{
+  position: absolute;
+  left: -350px;
+  top: 40px;
 }
 
 }
