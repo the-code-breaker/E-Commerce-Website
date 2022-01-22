@@ -300,7 +300,7 @@ only screen and (max-width: 560px),
 (min-device-width: 560px) and (max-device-width: 550px)  {
 #footer-id{
     position: absolute;
-    bottom: -4830px;
+    bottom: -4700px;
 
 }
 
