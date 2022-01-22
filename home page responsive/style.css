@@ -294,3 +294,31 @@ only screen and (max-width: 377px),
 }
 
 }
+
+@media 
+only screen and (max-width: 382px),
+(min-device-width: 382px) and (max-device-width: 670px)  {
+#footer-id{
+    position: absolute;
+    bottom: -4800px;
+
+}
+
+#copyright{
+    width: 400px;
+    height: 50px;
+    position :relative;
+    font-size: 10px;
+    top: -10px;
+    left: -10px;
+    background-color: rgb(20, 18, 18);
+    
+   
+}
+#copyright h3{
+    color: #eee;
+    margin-bottom: 0px;
+      
+     
+  }
+}
