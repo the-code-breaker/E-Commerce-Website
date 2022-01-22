@@ -268,5 +268,29 @@ only screen and (max-width: 377px),
     position: absolute;
     bottom: -4205px;
 
+
 }
+
+#copyright{
+    width: 400px;
+    height: 180px;
+    position :relative;
+    font-size: 10px;
+    top: -10px;
+    left: -10px;
+    background-color: rgb(20, 18, 18);
+    
+   
+}
+#copyright h3{
+  color: #eee;
+  margin-bottom: 110px;
+    
+   
+}
+
+#footer-item6 img{
+    margin-bottom: 30px;
+}
+
 }
