@@ -296,11 +296,11 @@ only screen and (max-width: 377px),
 } */
 
 @media 
-only screen and (max-width: 350px),
-(min-device-width: 350px) and (max-device-width: 650px)  {
+only screen and (max-width: 450px),
+(min-device-width: 450px) and (max-device-width: 500px)  {
 #footer-id{
     position: absolute;
-    bottom: -4800px;
+    bottom: -5000px;
 
 }
 
@@ -324,10 +324,10 @@ only screen and (max-width: 350px),
 }
 @media 
 only screen and (max-width: 300px),
-(min-device-width: 300px) and (max-device-width: 500px)  {
+(min-device-width: 300px) and (max-device-width: 300px)  {
 #footer-id{
     position: absolute;
-    bottom: -4980px;
+    bottom: -5260px;
 
 }
 
