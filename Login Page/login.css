@@ -336,6 +336,7 @@ position: relative;
   position: relative;
   top: 240px;
   left: -200px;
+  margin-right: 50px;
 }
 
 .panels-container{
@@ -367,6 +368,11 @@ position: relative;
   height: 40px;
   border: 2px solid red;
   
+}
+
+.input-field{
+  width: 250px;
+
 }
 
 .btn.solid{
