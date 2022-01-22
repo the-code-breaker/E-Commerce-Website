@@ -296,11 +296,11 @@ only screen and (max-width: 377px),
 } */
 
 @media 
-only screen and (max-width: 450px),
-(min-device-width: 450px) and (max-device-width: 500px)  {
+only screen and (max-width: 560px),
+(min-device-width: 560px) and (max-device-width: 550px)  {
 #footer-id{
     position: absolute;
-    bottom: -5000px;
+    bottom: -4830px;
 
 }
 
