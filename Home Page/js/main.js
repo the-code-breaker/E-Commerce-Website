@@ -45,12 +45,12 @@ function myfunc2(){
 
 
 
-setInterval(popup, 15000);
+setInterval(popup, 10000);
 function popup(){
         document.getElementById('main-box1').style.display = 'none';
 }
 
-let timeleft = 15;
+let timeleft = 10;
 let downloadTimer = setInterval(function(){
   if(timeleft <= 0){
     clearInterval(downloadTimer);

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>SamsumgCountdown</title>
+    <style type="text/css">
+        body{
+            background: black;
+        }
+        #box1{
+        display: inline-block;
+        position: absolute;
+        top: 500px;
+        font-size: 50px;
+        background-color: transparent;
+        text-align: center;
+        left: 40%;
+        color: rgb(47, 224, 224);
+        
+        }
+        #back{
+            display: flex;
+            width: 100%;
+            height: 100%;
+            opacity: 0.5;
+        }
+    
+        #front{
+            position: absolute;
+            top: 50px;
+            bottom: 0px;
+            width: 500px;
+            height: 700px;
+            opacity: 1;
+        }
+        .countdowncontainer{
+           position: absolute;
+           top: 40%;
+           left: 65%;
+           transform: translateX(-50%) translateY(-50%);
+           text-align: center;
+           background: transparent;
+           color: rgb(159, 159, 212);
+           width: 1000px;
+           padding: 50px; 
+        }
+        .info{
+            font-size: 100px;
+        }  
+    
+        table tr td h1{
+            font-size: 70px;
+            color: rgb(125, 209, 56);
+        }
+    
+    
+        table tr td{
+            font-size: 50px;
+        }
+    
+        .info td{
+            font-size: 100px;
+            font-weight: bold;
+            letter-spacing: 3px;
+            color: rgb(174, 110, 204);
+        }
+    
+        h3{
+            position: absolute;
+            top: 650px;
+            width: 900px;
+            font-size: 35px;
+            left: 600px;
+            color: rgb(240, 203, 102);
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="img" id="img1">
+        <img src="./samsung.png" alt="" id="back">
+        <img src="./samsungz2.png" alt="" id="front">
+    </div>
+    <div class="box" id="box1">
+        <p class="" id="box"><h1>Galaxy Z Fold3 5G</h1></p>
+    </div>
+    <table class="countdowncontainer">
+        <tr class="info">
+            <td colspan="4">LAUNCHING SOON :)</td>
+        </tr>
+        <tr id="clockdiv">
+            <td ><h1 id="days"></h1></td>
+            <td ><h1 id="hours"></h1></td>
+            <td ><h1 id="minutes"></h1></td>
+            <td ><h1 id="seconds"></h1></td>
+        </tr>
+        <tr>
+            <td>Days</td>
+            <td>Hours</td>
+            <td>Minutes</td>
+            <td>Seconds</td>
+        </tr>
+    </table>
+
+    <h3>With more screen real estate, Samsung’s foldable devices provide more space for users to work and play. Galaxy Z Fold3 5G’s Main Screen expands the canvas even further, delivering a range of unique entertainment and productivity features that take the foldable smartphone experience to the next level.</h3>
+    <script type="text/javascript">
+        function getTimeRemaining(endtime) {
+            const total = Date.parse(endtime) - Date.parse(new Date());
+            const seconds = Math.floor((total / 1000) % 60);
+            const minutes = Math.floor((total / 1000 / 60) % 60);
+            const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
+            const days = Math.floor(total / (1000 * 60 * 60 * 24));
+            
+            return {
+              total,
+              days,
+              hours,
+              minutes,
+              seconds
+            };
+          }
+          
+          function initializeClock(id, endtime) {
+            const clock = document.getElementById(id);
+            const daysSpan = clock.querySelector('#days');
+            const hoursSpan = clock.querySelector('#hours');
+            const minutesSpan = clock.querySelector('#minutes');
+            const secondsSpan = clock.querySelector('#seconds');
+          
+            function updateClock() {
+              const t = getTimeRemaining(endtime);
+          
+              daysSpan.innerHTML = t.days;
+              hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+              minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+              secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+          
+              if (t.total <= 0) {
+                clearInterval(timeinterval);
+              }
+            }
+          
+            updateClock();
+            const timeinterval = setInterval(updateClock, 1000);
+          }
+          
+          const deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+          initializeClock('clockdiv', deadline);
+    </script>
+</body>
+</html>

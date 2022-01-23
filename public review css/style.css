@@ -1,0 +1,98 @@
+.veiw-box{
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    top: 250px;
+    left: 750px;
+    border-radius: 220px;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;    
+}
+#testimonials{
+    display: flex;
+    transition: 0.5s;
+}
+.user{
+    width: 800px;
+    text-align: center;
+    padding: 20px 70px;
+    box-sizing: border-box;
+    background: #321764;
+    border-radius: 200px;
+    box-shadow: 0 10px 20px -5px #00000061;
+    position: relative;
+
+}
+
+.space{
+    margin: 0 70px;
+}
+.user img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 10px solid #e8ecff;
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.user p{
+    font-size: 22px;
+    color: #cbb4f5;
+    line-height: 32px;
+    margin: 60px 0 30px;
+}
+.user p::before{
+    content: '\201C';
+    font-size: 60px;
+    height: 0;
+    display: inline-block;
+    vertical-align: -57;
+    margin-right: 10px;
+}
+.user p::after{
+    position: relative;
+    top: 20px;
+    content: '\201D';
+    font-size: 60px;
+    height: 0;
+    display: inline-block;
+    vertical-align: -70;
+    margin-left: 10px;
+}
+.user h3{
+    font-size: 26px;
+    color: #cbb4f5;
+}
+.controls{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.controls span{
+    width: 15px;
+    height: 15px;
+    background: #321764;
+    border-radius: 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.active{
+    width: 45px !important;
+}
+
+.happy{
+    margin-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    color: brown;
+
+    
+}
