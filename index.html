@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="./Home Page/footer css/style.css">
   <link rel="stylesheet" href="./Home Page/Slider/slider.css">
   <link rel="icon" href="./Home Page/logo/PngItem_1783030.png">
+  <link rel="stylesheet" href="./calculator/style.css">
+  
   
 
   <script src="./Home Page/js/main.js"></script>
@@ -50,7 +52,9 @@
 
     <!-- pop up display after 10 seconds -->
    <div class="main-box" id="main-box1" onload="popup()">
+
        <div class="popup">
+        <button id="remove" onclick="remove()">Close</button>
         <p class="counter">This window will automatically hide after <span id="counter"></span></p>
         <img src="./meet team/himanshu1.png" alt="">
         <img src="./meet team/sourav.jpg" alt="">
@@ -65,17 +69,57 @@
 
    <!-- calculator area -->
 
- <div id="myModal" class="Modal is-hidden is-visuallyHidden">
-    <!-- Modal content -->
-    <div class="Modal-content">
-           
-           <button id="close" onclick="closecal()">Close Calculator</button>
+ <div id="myModel" class="Model is-hidden is-visuallyHidden">
+    <!-- Model content -->
+
+    
+    <div class="Model-content">
+
+        <form name = "form1">  
+      
+            <!-- This input box shows the button pressed by the user in calculator. -->  
+          <input id = "calc" type ="text" name = "answer"> <br> <br>  
+          <!-- Display the calculator button on the screen. -->  
+          <!-- onclick() function display the number prsses by the user. -->  
+          <input type = "button" value = "1" onclick = "form1.answer.value += '1' ">  
+          <input type = "button" value = "2" onclick = "form1.answer.value += '2' ">  
+          <input type = "button" value = "3" onclick = "form1.answer.value += '3' ">  
+           <input type = "button" value = "+" onclick = "form1.answer.value += '+' ">  
+          <br> <br>  
+            
+          <input type = "button" value = "4" onclick = "form1.answer.value += '4' ">  
+          <input type = "button" value = "5" onclick = "form1.answer.value += '5' ">  
+          <input type = "button" value = "6" onclick = "form1.answer.value += '6' ">  
+          <input type = "button" value = "-" onclick = "form1.answer.value += '-' ">  
+          <br> <br>  
+            
+          <input type = "button" value = "7" onclick = "form1.answer.value += '7' ">  
+          <input type = "button" value = "8" onclick = "form1.answer.value += '8' ">  
+          <input type = "button" value = "9" onclick = "form1.answer.value += '9' ">  
+          <input type = "button" value = "*" onclick = "form1.answer.value += '*' ">  
+          <br> <br>  
+            
+            
+          <input type = "button" value = "/" onclick = "form1.answer.value += '/' ">  
+          <input type = "button" value = "0" onclick = "form1.answer.value += '0' ">  
+            <input type = "button" value = "." onclick = "form1.answer.value += '.' ">  
+            <!-- When we click on the '=' button, the onclick() shows the sum results on the calculator screen. -->  
+          <input type = "button" value = "=" onclick = "form1.answer.value = eval(form1.answer.value) ">  
+          <br>   
+          <!-- Display the Cancel button and erase all data entered by the user. -->  
+          <input type = "button" value = "Clear All" onclick = "form1.answer.value = ' ' " id= "clear" >  
+          <br>   
+            
+        </form>  
+  
+    
+        </div>
+        <button id="close" onclick="closecal()">Close</button>
     </div>
-  </div>
+    
+    <!-- calculator start button area -->
+    <button id="myBtn" onclick="startcal()">Start calculator</button>
 
-  <!-- calculator start button area -->
-
-<button id="myBtn" onclick="startcal()">Start calculator</button>
 
 
     <div class="container">
@@ -674,41 +718,46 @@
 <hr>
 
 
-<h1 class="happy">Our Happy Customers :)</h1>
+
+
+
+ <!-- our customer -->
+
+<h1 class="happy">Our Happy Customers Review :)</h1>
 <table class="customer">
     <tr>
         <td>
-            <div class="veiw-box">
+            <div class="view-box">
                 <div id="testimonials">
                     
                     
                     <div class="user">
                         <img src="./public review css/images/our cust1.png" alt="">
-                        <p>Many people feel that there is a limited amount of abundance, wealth, or chance to succeed in life. Furthermore, there is a solid beleif that if one person succeeds, another must fail.</p>
-                        <h3>Riley Olie</h3>
+                        <p>I will buy a western wear in BetterBuys it os super quality and it is as shown as in picture and product will be delivered in on time and in the we received cashback and rewards and we payed in these all bills BetterBuys.</p>
+                        <h3>Priyanka</h3>
                     </div>
                     
                     
                     <div class="user space">
                         <img src="./public review css/images/our cust2.png" alt="">
-                        <p>Many people feel that there is a limited amount of abundance, wealth, or chance to succeed in life. Furthermore, there is a solid beleif that if one person succeeds, another must fail.</p>
-                        <h3>Steve McCurry</h3>
+                        <p>Its a great Website for shopping and delivery is very smooth I just love this website. Really good website product quality is very good. Delivery on time. Good service.</p>
+                        <h3>Abhinav</h3>
                     </div>
                     
                     <div class="user">
                         <img src="./public review css/images/user1.jpg" alt="">
-                        <p>Many people feel that there is a limited amount of abundance, wealth, or chance to succeed in life. Furthermore, there is a solid beleif that if one person succeeds, another must fail.</p>
-                        <h3>Merlin Nguyen</h3>
+                        <p>I have been shopping for more than 3 years and I did not find any complaint in any product. All the items ordered by me, were delivered before the expected date of delivery and this happens every time so I can conclude that it is perfect and make the delivery of items happen in time and website is completely reliable.</p>
+                        <h3>Anjali Sharma</h3>
                     </div>
                     <div class="user">
                         <img src="./public review css/images/user2.jpg" alt="">
-                        <p>Many people feel that there is a limited amount of abundance, wealth, or chance to succeed in life. Furthermore, there is a solid beleif that if one person succeeds, another must fail.</p>
-                        <h3>Merlin Nguyen</h3>
+                        <p>Here I get good product in low cost .this aap is very good and very easy to use.its is the beeter aap in this world.</p>
+                        <h3>Rohan Preet</h3>
                     </div>
                     <div class="user">
                         <img src="./public review css/images/user3.jpg" alt="">
-                        <p>Many people feel that there is a limited amount of abundance, wealth, or chance to succeed in life. Furthermore, there is a solid beleif that if one person succeeds, another must fail.</p>
-                        <h3>Merlin Nguyen</h3>
+                        <p>It's providing excellent and safe delivery of good brand , less money to good product delivery most lovable and awesome product delivery.</p>
+                        <h3>Saniya</h3>
                     </div>
                     
                     
@@ -723,6 +772,7 @@
                 </div>
                 
             </div>
+
         </div>
     </td>
     </tr>
@@ -791,6 +841,8 @@
             
         </div>
 
+
+        <script src="./calculator/main.js"></script>
         <script src="./public review css/main.js"></script>
         </body>
         </html>

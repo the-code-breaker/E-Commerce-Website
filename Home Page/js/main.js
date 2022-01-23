@@ -43,23 +43,26 @@ function myfunc2(){
 }
 
 
+
+
+
 function startcal() {
-    var popup = document.getElementById('myModal');
+    var popup = document.getElementById('myModel');
     popup.style.visibility = 'visible';
   }
 function closecal() {
-    var popup = document.getElementById('myModal');
+    var popup = document.getElementById('myModel');
     popup.style.visibility = 'hidden';
 
   }
 
 
-setInterval(popup, 10000);
+setInterval(popup, 15000);
 function popup(){
         document.getElementById('main-box1').style.display = 'none';
 }
 
-let timeleft = 10;
+let timeleft = 15;
 let downloadTimer = setInterval(function(){
   if(timeleft <= 0){
     clearInterval(downloadTimer);
@@ -69,6 +72,11 @@ let downloadTimer = setInterval(function(){
 }, 1000);
 
 
+function remove(){
+ let remove = document.getElementById('main-box1');
+ remove.style.display = 'none';
+
+}
 
 
 

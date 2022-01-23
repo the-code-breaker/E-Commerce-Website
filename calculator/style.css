@@ -1,0 +1,103 @@
+h1 {  
+    text-align: center;  
+    padding: 10px;  
+    background-color: skyblue;  
+    color: rgb(226, 11, 11);  
+    }  
+  
+#clear{  
+width: 210px;  
+border: 3px solid gray;  
+    border-radius: 3px;  
+    padding: 10px;  
+    background-color: rgb(221, 29, 29);  
+}  
+
+
+  
+.Model-content input  
+{  
+width: 30px;  
+background-color: rgb(12, 44, 12);  
+color: white;  
+border: 3px solid gray;  
+    border-radius: 5px;  
+    padding: 20px;  
+    margin: 2px;  
+    font-size: 20px;  
+}  
+  
+  
+#calc{  
+width: 180px;  
+border: 5px solid black;  
+    border-radius: 3px;  
+    padding: 10px;  
+    margin: auto;  
+}  
+
+/* calculator area */
+
+#myModel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    visibility: hidden;
+}
+
+.Model-content{
+    border-radius: 10px;
+    background-color: burlywood;
+    width:300px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* Calculator start button area */
+#myBtn{
+    position: fixed;
+    right: 10px;
+    top: 200px;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    background-color: rgb(134, 129, 59);
+    color: rgb(235, 238, 241);
+    outline: 0;
+    border: 0;
+    z-index: 999;
+}
+#myBtn:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: black;
+    
+}
+
+#close{
+ width: 100px;
+ height: 50px;
+ position: absolute;
+ left: 880px;
+ top: 100px;
+ border: 0;
+ outline: 0;
+ background-color: rgb(88, 34, 34);
+ color: aliceblue;
+ font-size: 18px;
+ font-weight: bold;
+ letter-spacing: 1px;
+}
+
+#close:hover{
+    cursor: pointer;
+    background-color: black;
+    transition: 0.2s;
+}
