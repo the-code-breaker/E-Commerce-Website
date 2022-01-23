@@ -70,6 +70,70 @@ body {
 }
 
 
+/* calculator area */
+
+#myModal{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    visibility: hidden;
+}
+
+.Modal-content{
+    background-color: burlywood;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Calculator start button area */
+#myBtn{
+    position: fixed;
+    right: 10px;
+    top: 200px;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    background-color: rgb(134, 129, 59);
+    color: rgb(235, 238, 241);
+    outline: 0;
+    border: 0;
+    z-index: 999;
+}
+#myBtn:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: black;
+    
+}
+
+#close{
+ width: 500px;
+ height: 50px;
+ position: relative;
+ top: 225px;
+ border: 0;
+ outline: 0;
+ background-color: rgb(88, 34, 34);
+ color: aliceblue;
+ font-size: 18px;
+ font-weight: bold;
+ letter-spacing: 1px;
+}
+
+#close:hover{
+    cursor: pointer;
+    background-color: black;
+    transition: 0.2s;
+}
+
+
 .container {
     border-bottom: 3px solid blue;
     height: 73px;

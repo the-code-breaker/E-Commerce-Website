@@ -20,7 +20,7 @@
 </head>
 
 
-<body onload="myfunc()" >
+<body onload="myfunc()" id="body">
 
 
     <!-- pre loader -->
@@ -63,6 +63,20 @@
     </div>
    </div>
 
+   <!-- calculator area -->
+
+ <div id="myModal" class="Modal is-hidden is-visuallyHidden">
+    <!-- Modal content -->
+    <div class="Modal-content">
+           
+           <button id="close" onclick="closecal()">Close Calculator</button>
+    </div>
+  </div>
+
+  <!-- calculator start button area -->
+
+<button id="myBtn" onclick="startcal()">Start calculator</button>
+
 
     <div class="container">
         <div class="box" id="item1">
@@ -83,6 +97,9 @@
    
      </div>
  </div>
+
+
+ 
     
 
  
@@ -123,6 +140,10 @@
         </div>
     </section>
 
+
+     
+    
+
     
     
     <!-- banner first -->
@@ -130,7 +151,7 @@
     
     <section class="deal-products">
     <div class="mobile-container">
-
+    
 
             <!-- All new products lauching -->
 

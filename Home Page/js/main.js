@@ -43,6 +43,15 @@ function myfunc2(){
 }
 
 
+function startcal() {
+    var popup = document.getElementById('myModal');
+    popup.style.visibility = 'visible';
+  }
+function closecal() {
+    var popup = document.getElementById('myModal');
+    popup.style.visibility = 'hidden';
+
+  }
 
 
 setInterval(popup, 10000);
@@ -58,3 +67,8 @@ let downloadTimer = setInterval(function(){
   document.getElementById("counter").innerHTML = timeleft - 1 + " sec";
   timeleft -= 1;
 }, 1000);
+
+
+
+
+
