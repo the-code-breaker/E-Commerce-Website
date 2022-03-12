@@ -1,7 +1,15 @@
+
+// slidebar
+
 function togglemenu(){
+
     document.getElementById('sidebar').classList.toggle('active');
 }
 
+
+
+
+// preloader
 
 function myfunc(){
     setTimeout(function(){
@@ -12,6 +20,8 @@ function myfunc(){
 
 
 
+// buy now
+
 function myfunc3(){
     for (var clickButton of
         document.getElementsByClassName("buy-now"))
@@ -21,6 +31,9 @@ function myfunc3(){
         }
 
 }
+
+
+// add to cart
 function myfunc4(){
     for (var clickButton of
         document.getElementsByClassName("addtocart"))
@@ -31,6 +44,8 @@ function myfunc4(){
 
 }
 
+
+// add to cart 
 function myfunc2(){
     for (var clickButton of
         document.getElementsByClassName("addtocart"))
@@ -57,6 +72,9 @@ function closecal() {
   }
 
 
+
+
+  // pupop
 setInterval(popup, 15000);
 function popup(){
         document.getElementById('main-box1').style.display = 'none';
